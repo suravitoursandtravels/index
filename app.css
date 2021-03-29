@@ -1,0 +1,97 @@
+body {
+  background-color: #e5f4e3;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+.front {
+  background-image: url("https://seoimgak.mmtcdn.com/blog/sites/default/files/Hero_Image1_149.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  opacity: 95%;
+  min-height: 100vh;
+  color: white;
+}
+
+#mainNavbar {
+  font-size: 1.3rem;
+  font-weight: 300;
+  /* background-color: #2667ff !important; */
+}
+
+#mainNavbar .navbar-brand {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#mainNavbar .nav-link {
+  color: black;
+  transition: color 500ms;
+}
+
+#mainNavbar .nav-link:hover {
+  color: black;
+  font-weight: 400;
+}
+
+.navbar.scrolled {
+  background-color: #ffffff !important;
+  transition: background-color 800ms;
+}
+
+.diff {
+  margin: 20px 0;
+}
+
+.package {
+  margin-top: 50px;
+}
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.alert {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.atag {
+  text-decoration: none;
+  color: white;
+  transition: color 500ms;
+}
+.atag:hover {
+  color: rgb(231, 224, 224);
+}
+
+.home1 {
+  background-image: url("about2.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  opacity: 95%;
+  min-height: 85vh;
+  color: white;
+}
+
+.suravi1 {
+  background-image: url("new.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  opacity: 95%;
+  min-height: 85vh;
+  color: white;
+}
